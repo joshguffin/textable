@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8858B6670D0084A3000B5984 /* textable.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8858B6660D0084A3000B5984 /* textable.icns */; };
+		8858B83B0D0090A4000B5984 /* LatexController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8858B83A0D0090A4000B5984 /* LatexController.mm */; };
+		8858B8520D0090EB000B5984 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8858B8510D0090EB000B5984 /* Quartz.framework */; };
+		8858B8780D0091A1000B5984 /* Preview.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8858B8770D0091A1000B5984 /* Preview.nib */; };
+		8858B9C40D00B7C9000B5984 /* error.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8858B9C30D00B7C9000B5984 /* error.pdf */; };
+		8858B9E90D00BD7C000B5984 /* TeX.png in Resources */ = {isa = PBXBuildFile; fileRef = 8858B9E80D00BD7C000B5984 /* TeX.png */; };
+		8858B9FE0D00C03A000B5984 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8858B9FD0D00C03A000B5984 /* Credits.rtf */; };
+		887D2F230CF20EF5000EE84A /* TexTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887D2F220CF20EF5000EE84A /* TexTable.mm */; };
+		887D2F440CF210C9000EE84A /* InterfaceController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887D2F430CF210C9000EE84A /* InterfaceController.mm */; };
+		887D2F5F0CF211C9000EE84A /* TTSCellSelectionTableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887D2F5E0CF211C9000EE84A /* TTSCellSelectionTableView.mm */; };
+		887D2F6E0CF21578000EE84A /* TTSTextFieldSelectableCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887D2F6D0CF21578000EE84A /* TTSTextFieldSelectableCell.mm */; };
+		888597380CFF657F0024DA62 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888597360CFF657F0024DA62 /* OmniBase.framework */; };
+		888597390CFF657F0024DA62 /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888597370CFF657F0024DA62 /* OmniFoundation.framework */; };
+		88D0D4F00D00ED8C0026E41B /* RBSplitView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E9EDB20CF2767C00DCD6EE /* RBSplitView.framework */; };
+		88D0D59E0D00EDB00026E41B /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 888597360CFF657F0024DA62 /* OmniBase.framework */; };
+		88D0D59F0D00EDB00026E41B /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 888597370CFF657F0024DA62 /* OmniFoundation.framework */; };
+		88D20AF50D0E051300314E17 /* gpl-3.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88D20AF40D0E051300314E17 /* gpl-3.0.txt */; };
+		88E9EDB30CF2767C00DCD6EE /* RBSplitView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E9EDB20CF2767C00DCD6EE /* RBSplitView.framework */; };
+		88E9EDCB0CF2783800DCD6EE /* SplitViewDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88E9EDCA0CF2783800DCD6EE /* SplitViewDelegate.mm */; };
+		88F2D7490D0A1DF800995736 /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F2D7480D0A1DF800995736 /* parseCSV.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88D0D4F30D00ED900026E41B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				88D0D59E0D00EDB00026E41B /* OmniBase.framework in CopyFiles */,
+				88D0D59F0D00EDB00026E41B /* OmniFoundation.framework in CopyFiles */,
+				88D0D4F00D00ED8C0026E41B /* RBSplitView.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TexTable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexTable_Prefix.pch; sourceTree = "<group>"; };
+		8858B6660D0084A3000B5984 /* textable.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = textable.icns; sourceTree = "<group>"; };
+		8858B8390D0090A4000B5984 /* LatexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatexController.h; sourceTree = "<group>"; };
+		8858B83A0D0090A4000B5984 /* LatexController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LatexController.mm; sourceTree = "<group>"; };
+		8858B8510D0090EB000B5984 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		8858B8770D0091A1000B5984 /* Preview.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Preview.nib; sourceTree = "<group>"; };
+		8858B9C30D00B7C9000B5984 /* error.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = error.pdf; sourceTree = "<group>"; };
+		8858B9E80D00BD7C000B5984 /* TeX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeX.png; sourceTree = "<group>"; };
+		8858B9FD0D00C03A000B5984 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		887D2F210CF20EF5000EE84A /* TexTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexTable.h; sourceTree = "<group>"; };
+		887D2F220CF20EF5000EE84A /* TexTable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TexTable.mm; sourceTree = "<group>"; };
+		887D2F420CF210C9000EE84A /* InterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		887D2F430CF210C9000EE84A /* InterfaceController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InterfaceController.mm; sourceTree = "<group>"; };
+		887D2F5D0CF211C9000EE84A /* TTSCellSelectionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSCellSelectionTableView.h; sourceTree = "<group>"; };
+		887D2F5E0CF211C9000EE84A /* TTSCellSelectionTableView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTSCellSelectionTableView.mm; sourceTree = "<group>"; };
+		887D2F6C0CF21578000EE84A /* TTSTextFieldSelectableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSTextFieldSelectableCell.h; sourceTree = "<group>"; };
+		887D2F6D0CF21578000EE84A /* TTSTextFieldSelectableCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTSTextFieldSelectableCell.mm; sourceTree = "<group>"; };
+		888597360CFF657F0024DA62 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = /Library/Frameworks/OmniBase.framework; sourceTree = "<absolute>"; };
+		888597370CFF657F0024DA62 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = /Library/Frameworks/OmniFoundation.framework; sourceTree = "<absolute>"; };
+		88D20AF40D0E051300314E17 /* gpl-3.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gpl-3.0.txt"; sourceTree = "<group>"; };
+		88E9EDB20CF2767C00DCD6EE /* RBSplitView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RBSplitView.framework; path = /Library/Frameworks/RBSplitView.framework; sourceTree = "<absolute>"; };
+		88E9EDC90CF2783800DCD6EE /* SplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewDelegate.h; sourceTree = "<group>"; };
+		88E9EDCA0CF2783800DCD6EE /* SplitViewDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SplitViewDelegate.mm; sourceTree = "<group>"; };
+		88F2D7470D0A1DF800995736 /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		88F2D7480D0A1DF800995736 /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TeXTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeXTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				88E9EDB30CF2767C00DCD6EE /* RBSplitView.framework in Frameworks */,
+				888597380CFF657F0024DA62 /* OmniBase.framework in Frameworks */,
+				888597390CFF657F0024DA62 /* OmniFoundation.framework in Frameworks */,
+				8858B8520D0090EB000B5984 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				88E9EBF00CF23EBC00DCD6EE /* Model */,
+				88E9EBEF0CF23EB000DCD6EE /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8858B8510D0090EB000B5984 /* Quartz.framework */,
+				888597360CFF657F0024DA62 /* OmniBase.framework */,
+				888597370CFF657F0024DA62 /* OmniFoundation.framework */,
+				88E9EDB20CF2767C00DCD6EE /* RBSplitView.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TeXTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TexTable */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TexTable;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TexTable_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88D20AF40D0E051300314E17 /* gpl-3.0.txt */,
+				8858B9FD0D00C03A000B5984 /* Credits.rtf */,
+				8858B9C30D00B7C9000B5984 /* error.pdf */,
+				8858B9E80D00BD7C000B5984 /* TeX.png */,
+				8858B6660D0084A3000B5984 /* textable.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				8858B8770D0091A1000B5984 /* Preview.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88E9EBEF0CF23EB000DCD6EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				887D2F420CF210C9000EE84A /* InterfaceController.h */,
+				887D2F430CF210C9000EE84A /* InterfaceController.mm */,
+				887D2F6C0CF21578000EE84A /* TTSTextFieldSelectableCell.h */,
+				887D2F6D0CF21578000EE84A /* TTSTextFieldSelectableCell.mm */,
+				887D2F5D0CF211C9000EE84A /* TTSCellSelectionTableView.h */,
+				887D2F5E0CF211C9000EE84A /* TTSCellSelectionTableView.mm */,
+				88E9EDC90CF2783800DCD6EE /* SplitViewDelegate.h */,
+				88E9EDCA0CF2783800DCD6EE /* SplitViewDelegate.mm */,
+				8858B8390D0090A4000B5984 /* LatexController.h */,
+				8858B83A0D0090A4000B5984 /* LatexController.mm */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		88E9EBF00CF23EBC00DCD6EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88F2D7470D0A1DF800995736 /* parseCSV.h */,
+				88F2D7480D0A1DF800995736 /* parseCSV.m */,
+				887D2F210CF20EF5000EE84A /* TexTable.h */,
+				887D2F220CF20EF5000EE84A /* TexTable.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TeXTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeXTable" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				88D0D4F30D00ED900026E41B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeXTable;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TexTable;
+			productReference = 8D1107320486CEB800E47090 /* TeXTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TexTable" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TexTable */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TeXTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8858B6670D0084A3000B5984 /* textable.icns in Resources */,
+				8858B8780D0091A1000B5984 /* Preview.nib in Resources */,
+				8858B9C40D00B7C9000B5984 /* error.pdf in Resources */,
+				8858B9E90D00BD7C000B5984 /* TeX.png in Resources */,
+				8858B9FE0D00C03A000B5984 /* Credits.rtf in Resources */,
+				88D20AF50D0E051300314E17 /* gpl-3.0.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				887D2F230CF20EF5000EE84A /* TexTable.mm in Sources */,
+				887D2F440CF210C9000EE84A /* InterfaceController.mm in Sources */,
+				887D2F5F0CF211C9000EE84A /* TTSCellSelectionTableView.mm in Sources */,
+				887D2F6E0CF21578000EE84A /* TTSTextFieldSelectableCell.mm in Sources */,
+				88E9EDCB0CF2783800DCD6EE /* SplitViewDelegate.mm in Sources */,
+				8858B83B0D0090A4000B5984 /* LatexController.mm in Sources */,
+				88F2D7490D0A1DF800995736 /* parseCSV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TeXTable;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TeXTable;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeXTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TexTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

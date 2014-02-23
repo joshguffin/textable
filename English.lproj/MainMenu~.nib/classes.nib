@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                go = id; 
+                normalizeColumns = id; 
+                slideVerb = id; 
+                surround = id; 
+                transpose = id; 
+                update = id; 
+            }; 
+            CLASS = InterfaceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                align = NSButton; 
+                alignment = NSTextField; 
+                caption = NSTextView; 
+                colStepper = NSStepper; 
+                columns = NSTextField; 
+                label = NSTextField; 
+                landscape = NSButtonCell; 
+                messages = NSTextView; 
+                position = NSTextField; 
+                positionCheck = NSButton; 
+                recognize = NSButton; 
+                rowStepper = NSStepper; 
+                rows = NSTextField; 
+                texTable = TTSCellSelectionTableView; 
+                texText = NSTextView; 
+                verbosityDescription = NSTextField; 
+                verbositySlider = NSSlider; 
+                width = NSTextField; 
+                widthCheck = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = SplitViewDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controlsTeXSplitView = RBSplitView; tableTextSplitView = RBSplitView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = TTSCellSelectionTableColumn; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableColumn; 
+        }, 
+        {
+            ACTIONS = {deselectAll = id; selectAll = id; }; 
+            CLASS = TTSCellSelectionTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {CLASS = TexTable; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
